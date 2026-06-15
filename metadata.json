@@ -1,0 +1,8 @@
+{
+  "name": "ScheduleSync",
+  "description": "Mobile-optimized scheduling app for instructors with MS Dynamics 365 CRM integration and administrative email alerts.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

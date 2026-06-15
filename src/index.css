@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --wm-navy-950: #071338;
+  --wm-navy-900: #0b1f4f;
+  --wm-navy-800: #102d6b;
+  --wm-navy-700: #183a82;
+  --wm-blue: #203a8a;
+  --wm-teal: #3fd2ce;
+  --wm-teal-dark: #1aa9a7;
+  --wm-teal-soft: #dffafa;
+}
+
+body {
+  background: var(--wm-navy-950);
+}
+
+::selection {
+  background: var(--wm-teal);
+  color: var(--wm-navy-950);
+}
+
+[class*="bg-slate-950"] {
+  background-color: var(--wm-navy-950) !important;
+}
+
+[class*="bg-slate-900"] {
+  background-color: var(--wm-navy-900) !important;
+}
+
+[class*="bg-slate-800"] {
+  background-color: var(--wm-navy-800) !important;
+}
+
+[class*="border-slate-900"],
+[class*="border-slate-850"],
+[class*="border-slate-800"],
+[class*="border-slate-700"] {
+  border-color: rgba(63, 210, 206, 0.18) !important;
+}
+
+[class*="bg-indigo-950"],
+[class*="bg-indigo-900"],
+[class*="bg-indigo-800"],
+[class*="bg-indigo-700"],
+[class*="bg-indigo-650"],
+[class*="bg-indigo-600"] {
+  background-color: var(--wm-blue) !important;
+}
+
+[class*="bg-indigo-500/10"],
+[class*="bg-indigo-950/15"],
+[class*="bg-indigo-950/20"],
+[class*="bg-indigo-900/5"],
+[class*="bg-indigo-900/10"],
+[class*="bg-indigo-900/20"],
+[class*="bg-indigo-50"] {
+  background-color: var(--wm-teal-soft) !important;
+}
+
+[class*="text-indigo-900"],
+[class*="text-indigo-800"],
+[class*="text-indigo-700"],
+[class*="text-indigo-600"],
+[class*="text-indigo-500"],
+[class*="text-indigo-400"],
+[class*="text-indigo-300"],
+[class*="text-indigo-200"],
+[class*="text-indigo-100"] {
+  color: var(--wm-teal) !important;
+}
+
+.bg-white [class*="text-indigo-"],
+.bg-gray-50 [class*="text-indigo-"],
+[class*="bg-indigo-50"] {
+  color: var(--wm-blue) !important;
+}
+
+[class*="border-indigo-900"],
+[class*="border-indigo-800"],
+[class*="border-indigo-700"],
+[class*="border-indigo-500"],
+[class*="border-indigo-400"],
+[class*="border-indigo-300"],
+[class*="border-indigo-200"],
+[class*="border-indigo-100"] {
+  border-color: rgba(63, 210, 206, 0.45) !important;
+}
+
+[class*="focus:border-indigo-"]:focus {
+  border-color: var(--wm-teal) !important;
+}
+
+[class*="shadow-indigo"] {
+  --tw-shadow-color: rgba(63, 210, 206, 0.22) !important;
+}
+
+[class*="from-red"],
+[class*="to-indigo"] {
+  --tw-gradient-from: var(--wm-blue) !important;
+  --tw-gradient-to: var(--wm-teal) !important;
+}
+
+button[class*="bg-indigo"]:hover {
+  background-color: var(--wm-navy-700) !important;
+}
+
+.wm-brand-mark {
+  background:
+    linear-gradient(90deg, var(--wm-teal) 0 42%, transparent 42%),
+    linear-gradient(135deg, var(--wm-blue) 0 55%, var(--wm-teal) 55%);
+}

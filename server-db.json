@@ -1,0 +1,223 @@
+{
+  "dynamics365Config": {
+    "tenantId": "",
+    "clientId": "",
+    "clientSecret": "",
+    "environmentUrl": "",
+    "isConnected": false,
+    "activeEntityName": "msevents_firstaidcourses",
+    "sendgridApiKey": ""
+  },
+  "instructors": [
+    {
+      "id": "inst-001",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@firstaidpro.com",
+      "phone": "+15552345678",
+      "password": "password123",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "bio": "Certified senior paramedic with over 12 years of hands-on trauma care and emergency response experience.",
+      "certificationLevel": "Standard First Aid, BLS, & Wilderness Instructor",
+      "certExpiry": "2027-12-31"
+    },
+    {
+      "id": "inst-002",
+      "name": "Sarah Chen",
+      "email": "s.chen@firstaidpro.com",
+      "phone": "+15558765432",
+      "password": "password123",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
+      "bio": "Registered Nurse passionate about occupational health, safety training, and pediatric CPR standards.",
+      "certificationLevel": "SFA, EFA & CPR/AED Instructor",
+      "certExpiry": "2028-06-15"
+    },
+    {
+      "id": "inst-003",
+      "name": "Alex Mercer",
+      "email": "a.mercer@firstaidpro.com",
+      "phone": "+15554321098",
+      "password": "password123",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200",
+      "bio": "Former military medic specializing in remote survival medicine and wilderness rescue courses.",
+      "certificationLevel": "Wilderness Advanced First Aid (WAFA) Lead Trainer",
+      "certExpiry": "2027-03-22"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-101",
+      "title": "Standard First Aid & CPR-C Level",
+      "code": "SFA-2026-615",
+      "type": "SFA",
+      "date": "2026-06-22",
+      "time": "09:00 - 17:00",
+      "location": "Metro Training Center, Room 4B",
+      "address": "455 University Avenue, Toronto, ON",
+      "instructorId": "inst-001",
+      "status": "Confirmed",
+      "maxRegistered": 18,
+      "currentlyRegistered": 5,
+      "trainees": [
+        { "name": "Jessica Albright", "email": "j.albright@gmail.com", "phone": "555-010-0222", "company": "Shell Corp", "status": "Registered" },
+        { "name": "David Miller", "email": "d.miller@outlook.com", "phone": "555-011-9382", "company": "BMO Bank", "status": "Registered" },
+        { "name": "Rebecca Sterling", "email": "r.sterling@comp.ca", "phone": "555-122-3838", "company": "Sterling Group", "status": "Registered" },
+        { "name": "Tyler Durden", "email": "soap@paperstreet.com", "phone": "555-837-2931", "company": "Self-Employed", "status": "Registered" },
+        { "name": "Emily Watson", "email": "e.watson@yahoo.com", "phone": "555-938-1188", "company": "City Health", "status": "Registered" }
+      ]
+    },
+    {
+      "id": "course-102",
+      "title": "Basic Life Support (BLS) for Healthcare Providers",
+      "code": "BLS-2026-618",
+      "type": "BLS",
+      "date": "2026-06-25",
+      "time": "08:30 - 12:30",
+      "location": "Downtown Health Clinic Suite",
+      "address": "80 Bond Street, Toronto, ON",
+      "instructorId": "inst-001",
+      "status": "Confirmed",
+      "maxRegistered": 10,
+      "currentlyRegistered": 3,
+      "trainees": [
+        { "name": "Dr. Angela Foster", "email": "a.foster@toronto-hospital.ca", "phone": "555-837-1234", "company": "St. Michael's Hospital", "status": "Registered" },
+        { "name": "Nurse Brian Kelly", "email": "b.kelly@nursing.org", "phone": "555-322-9988", "company": "InnerCity Health", "status": "Registered" },
+        { "name": "Sophia Martinez", "email": "s.martinez@medschool.ca", "phone": "555-948-2231", "company": "U of T Medicine", "status": "Registered" }
+      ]
+    },
+    {
+      "id": "course-103",
+      "title": "Emergency First Aid / AED Standard",
+      "code": "EFA-2026-628",
+      "type": "EFA",
+      "date": "2026-06-28",
+      "time": "10:00 - 16:00",
+      "location": "Community Recreation Hall",
+      "address": "250 Queens Quay West, Toronto, ON",
+      "instructorId": "inst-002",
+      "status": "Confirmed",
+      "maxRegistered": 15,
+      "currentlyRegistered": 4,
+      "trainees": [
+        { "name": "Gavin Newsom", "email": "gnewsom@gov.ca", "phone": "555-342-9921", "company": "State Office", "status": "Registered" },
+        { "name": "Linda McCartney", "email": "linda@beats.org", "phone": "555-433-8822", "company": "Vegetarian Society", "status": "Registered" },
+        { "name": "John Doe", "email": "j.doe@anon.com", "phone": "555-888-9999", "company": "Unassigned", "status": "Registered" },
+        { "name": "Jane Smith", "email": "j.smith@anon.com", "phone": "555-000-0000", "company": "Unassigned", "status": "Registered" }
+      ]
+    },
+    {
+      "id": "course-104",
+      "title": "Wilderness First Aid & Remote Survival",
+      "code": "WFA-2026-070",
+      "type": "WFA",
+      "date": "2026-07-02",
+      "time": "08:00 - 18:00",
+      "location": "High Park Wilderness Center",
+      "address": "1873 Bloor Street West, Toronto, ON",
+      "instructorId": "inst-003",
+      "status": "Confirmed",
+      "maxRegistered": 12,
+      "currentlyRegistered": 3,
+      "trainees": [
+        { "name": "Bear Grylls", "email": "bear@wilderness.com", "phone": "555-832-9011", "company": "Discovery", "status": "Registered" },
+        { "name": "Leslie Knope", "email": "lknope@pawnee.gov", "phone": "555-223-9000", "company": "Pawnee Parks & Rec", "status": "Registered" },
+        { "name": "Ron Swanson", "email": "rswanson@verygood.com", "phone": "No Phone Available", "company": "Very Good Building Co", "status": "Registered" }
+      ]
+    },
+    {
+      "id": "course-105",
+      "title": "Standard First Aid Redux",
+      "code": "SFA-2026-074",
+      "type": "SFA",
+      "date": "2026-07-10",
+      "time": "09:00 - 17:00",
+      "location": "Metro Training Center, Room 4B",
+      "address": "455 University Avenue, Toronto, ON",
+      "instructorId": "inst-001",
+      "status": "PendingAssignment",
+      "maxRegistered": 18,
+      "currentlyRegistered": 2,
+      "trainees": [
+        { "name": "Alice Peterson", "email": "alice.p@outlook.com", "phone": "555-827-3932", "company": "Independent", "status": "Registered" },
+        { "name": "Charlie Chaplin", "email": "chaplin@silentfilms.org", "phone": "555-121-3921", "company": "United Artists", "status": "Registered" }
+      ]
+    },
+    {
+      "id": "course-106",
+      "title": "Emergency Pediatric Care SFA",
+      "code": "EFA-2026-078",
+      "type": "EFA",
+      "date": "2026-07-12",
+      "time": "09:00 - 15:30",
+      "location": "Sunnybrook Early Learning",
+      "address": "15 Bayview Wood, North York, ON",
+      "instructorId": "inst-002",
+      "status": "PendingAssignment",
+      "maxRegistered": 12,
+      "currentlyRegistered": 2,
+      "trainees": [
+        { "name": "Sonia Sotomayor", "email": "sonia.s@gov.us", "phone": "555-382-1920", "company": "Supreme Court", "status": "Registered" },
+        { "name": "Zendaya Coleman", "email": "daya@actors.com", "phone": "555-212-3922", "company": "HBO Max", "status": "Registered" }
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "id": "avail-101",
+      "instructorId": "inst-001",
+      "date": "2026-06-22",
+      "status": "available",
+      "updatedAt": "2026-06-15T07:12:00-07:00"
+    },
+    {
+      "id": "avail-102",
+      "instructorId": "inst-001",
+      "date": "2026-06-23",
+      "status": "available",
+      "updatedAt": "2026-06-15T07:12:00-07:00"
+    },
+    {
+      "id": "avail-103",
+      "instructorId": "inst-001",
+      "date": "2026-06-25",
+      "status": "available",
+      "updatedAt": "2026-06-15T07:12:00-07:00"
+    },
+    {
+      "id": "avail-104",
+      "instructorId": "inst-002",
+      "date": "2026-06-28",
+      "status": "available",
+      "updatedAt": "2026-06-15T07:12:00-07:00"
+    },
+    {
+      "id": "avail-105",
+      "instructorId": "inst-003",
+      "date": "2026-07-02",
+      "status": "available",
+      "updatedAt": "2026-06-15T07:12:00-07:00"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-001",
+      "instructorId": "inst-001",
+      "title": "New Assignment Added",
+      "message": "You have been assigned to 'Standard First Aid & CPR-C Level' on June 22, 2026.",
+      "type": "assignment",
+      "createdAt": "2026-06-14T09:30:00-07:00",
+      "read": false,
+      "courseId": "course-101"
+    },
+    {
+      "id": "notif-002",
+      "instructorId": "inst-001",
+      "title": "Shift Confirmed",
+      "message": "Dynamics 365 confirmed your BLS shift on June 25, 2026.",
+      "type": "system",
+      "createdAt": "2026-06-15T06:00:00-07:00",
+      "read": true,
+      "courseId": "course-102"
+    }
+  ],
+  "adminEmailLogs": []
+}
